@@ -2,9 +2,9 @@
 
 @section('content')
     <div class="container">
-        <h1>Agregar un Nuevo Activo al Inventario</h1>
+        <h1>Agregar un Nuevo Activo al Inventario klk</h1>
         <form method="POST" action="{{ route('inventario.store') }}">
-            @csrf <!-- Protección contra ataques CSRF -->
+            @csrf 
 
             <div class="form-group">
                 <label for="serial">Serial:</label>
